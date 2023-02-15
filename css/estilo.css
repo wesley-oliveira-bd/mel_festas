@@ -30,6 +30,10 @@ header > h1 {
     padding: 10px;
 }
 
+.link-index:visited {
+    color: #D4A12C;
+}
+
 nav {
     padding: 5px;
     font-family: Arial, Helvetica, sans-serif;
