@@ -1,0 +1,104 @@
+*{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #f7d17e56, #f7d17e56,#D4A12C);
+    margin: 0px;
+}
+
+header {
+    margin: auto;
+    min-width: 400px;
+    background-image: linear-gradient(to bottom, #d4a12c, #F7DA5E);
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.082);
+}
+
+header > h1 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 3em;
+    color: #D4A12C;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.466);
+}
+
+header > h1:hover {
+    width: 400px;
+    margin: auto;
+    background-color:#F7DA5E;
+    border-radius: 4px;
+}
+
+header > h2 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 2em;
+    color: #D4A12C;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.466);
+}
+
+.link-index:visited {
+    color: #D4A12C;
+}
+
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    padding: 5px;
+    justify-content: space-evenly;
+    align-items: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.466);
+}
+
+nav > a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav > a:hover {
+    background-color:#F7DA5E;
+    padding: px;
+    border-radius: 4px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    height: 800px;
+    padding: 20px;
+    min-width: 400px;
+    max-width: 800px;
+}
+
+.contato-item{
+    padding: 5px;
+}
+
+.contato {
+    background-image: linear-gradient(to bottom, #d4a12c, #F7DA5E);
+    padding: 20px;
+    height: 300px;
+    width: 500px;
+    border-radius: 8px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.082);
+}
+
+footer {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-style: italic;
+    margin: auto;
+    border-radius: 0px 0px 5px 5px;
+    min-width: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #D4A12C;
+    color: #fff ;
+}
